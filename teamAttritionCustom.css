@@ -49,6 +49,10 @@ body {
 	border: 1px solid #73AD21;
 }*/
 
+.active a {
+	color: #8838ff;
+}
+
 html, body {
 	background-color: black;
 	color: #e6e6e6;
@@ -70,3 +74,4 @@ html, body {
 	margin: 1%;
 	/*border: 1px solid #73AD21;*/
 }
+
