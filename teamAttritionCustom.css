@@ -1,0 +1,28 @@
+.navbar {
+  	border-bottom: 1px solid grey;
+}
+
+.nav-item a {
+	margin: 0 10px 0 10px;
+	color: #e6e6e6;
+}
+
+/*.navbar {
+	border: 1px solid #73AD21;
+}
+
+.navbar-nav {
+	border: 1px solid #73AD21;
+}*/
+
+html, body {
+	background-color: black;
+	color: #e6e6e6;
+}
+
+.socialMediaList {
+	margin: auto;
+	text-align: center;
+	/*border: 1px solid #73AD21;*/
+	font-size: 20;
+}
