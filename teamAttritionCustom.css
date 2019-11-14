@@ -46,8 +46,9 @@ body {
 	display:block;
 	height: 70%;
 	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 1% auto 1% auto;
+	/*margin-left: auto;
+	margin-right: auto;*/
 }
 
 .container {
@@ -66,11 +67,14 @@ html, body {
 }
 
 .socialMediaList {
-	display:block;
+	position: relative;
+	/*bottom: -100px;*/
+	
 	width: 15vw;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	margin-top: 4%;
 	/*border: 1px solid #73AD21;*/
 	font-size: 1.2vw;
 }
@@ -82,3 +86,32 @@ html, body {
 	/*border: 1px solid #73AD21;*/
 }
 
+.col {
+	margin: 5%;
+	/*border: 1px solid #73AD21;*/
+}
+
+.pageHeader {
+	text-align: center;
+}
+
+.creatorProfile {
+	margin: 8%;
+	border: 1px solid #73AD21;
+}
+
+.creatorLinks {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4%;
+	/*border: 1px solid #73AD21;*/
+	font-size: 1.2vw;
+}
+
+.creatorLinksImgContainer {
+	display: inline-block;
+	width: 5%;
+	text-align: center;
+	/*margin: 1% 1% 1% 1%;*/
+	/*border: 1px solid #73AD21;*/
+}
